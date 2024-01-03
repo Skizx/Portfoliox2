@@ -9,7 +9,7 @@ function Navbar() {
 
     return (
         <>
-            <nav className="flex justify-center items-center mt-5 pt-1 backdrop-blur-xl rounded-4xl">
+            <nav className="flex justify-center items-center mt-5 pt-1 backdrop-blur-xl border-transparent border rounded-2xl">
                 <ul className="flex gap-3 p-[10px]">
                     <li className={pathname === '/' ? activeLink : inactiveLink}><Link to='/'>Work</Link></li>
                     <li className={pathname === '/about' ? activeLink : inactiveLink}><Link to='/about'>About</Link></li>

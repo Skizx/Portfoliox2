@@ -4,8 +4,8 @@ function About() {
 
     return (
         <>
-        <h1>A propos</h1>
         <Navbar />
+        <h1>A propos</h1>
         </>
     )
 }

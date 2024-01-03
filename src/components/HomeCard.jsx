@@ -1,12 +1,16 @@
-function HomeCard({title, cover, background}) {
+/* eslint-disable react/prop-types */
+function HomeCard({title, cover, background, type}) {
 
 
     return (
         <>
-        <div className="border-transparent rounded-[30px] overflow-hidden h-full" style={{ backgroundColor : background}}>
-            <p>{title}</p>
-            <img className="h-full object-cover" src={cover} alt={title} />
-        </div>
+        <figure className="border-transparent rounded-[30px] overflow-hidden h-full flex flex-col" style={{ backgroundColor : background}}>
+            <div className="flex items-end flex-col h-[60%] pr-5 pt-5 text-black">
+                <h2 className="">{title}</h2>
+                <p className="agbalumo">{type}</p>
+            </div>
+            <img className="h-full object-cover rounded-tl-3xl ml-5" src={cover} alt={title} />
+        </figure>
         </>
     )
 }
