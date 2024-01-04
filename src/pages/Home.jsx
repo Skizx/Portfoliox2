@@ -3,12 +3,14 @@ import MainTitle from "../components/MainTitle"
 import Navbar from "../components/Navbar"
 import Realisations from "../components/Realisations"
 import SecondTitle from "../components/SecondTitle"
+import homeRealisation from '../datas/homerealisation.json';
+import inProgressRealisation from '../datas/inprogressrealisation.json';
 
 function Home() {
 
     return (
         <>
-        <header className="fixed w-full pl-4 pr-4 z-50">
+        <header className="fixed w-full px-6 z-50">
         <Navbar />
         </header>
         <main>
@@ -16,8 +18,12 @@ function Home() {
         <div className="wrapper pb-8">
             <p className="text-center">Je suis un développeur passionée par la création de site dynamique, moderne, accéssible basé sur l'éxpérience de l'utilisateur.</p>
         </div>
-        <Realisations />
+        <Realisations realisations={homeRealisation} />
         <SecondTitle />
+        <div className="wrapper pb-8">
+            <p className="text-center">Je travail sur le developpement de divers projets, sites web, applications et l'apprentissage de nouveauté.</p>
+        </div>
+        <Realisations realisations={inProgressRealisation} />
         </main>
         </>
     )

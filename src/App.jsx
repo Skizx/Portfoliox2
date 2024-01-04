@@ -5,6 +5,7 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Play from './pages/Play'
 import Contact from './pages/Contact'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -43,6 +44,7 @@ function App() {
         <Route exact path='/play' element={<Play />} />
         <Route exact path='/contact' element={<Contact />} />
       </Routes>
+      <Footer />
     </>
   )
 }
