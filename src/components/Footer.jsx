@@ -2,6 +2,7 @@ import { useState } from "react";
 import { ThemeContext, themes } from "../context/theme-context";
 import { GiHeraldicSun } from "react-icons/gi";
 import { FaMoon } from "react-icons/fa";
+import CV from '../assets/Kévin_Civiletti_CV.pdf';
 
 function Footer() {
 
@@ -9,15 +10,15 @@ function Footer() {
 
     return (
         <>
-        <footer className=" pt-10">
+        <footer className=" mt-32">
             <div className="flex wrapper justify-around pb-20">
                 <div className="flex flex-col gap-3">
                     <h4 className="agbalumo">Autres</h4>
                     <ul className="flex flex-col gap-3">
-                        <li>Github</li>
-                        <li>Linkedin</li>
-                        <li>CV</li>
-                        <li>Email</li>
+                        <li><a href="https://github.com/Skizx" target="_blank" rel="noreferrer">Github</a></li>
+                        <li><a href="https://www.linkedin.com/in/kciviletti/" target="_blank" rel="noreferrer">Linkedin</a></li>
+                        <li><a href={CV} download='Civiletti Kévin CV' target="_blank" rel="noreferrer">CV</a></li>
+                        <li><a href="mailto:k.civiletti.gj@gmail.com">Email</a></li>
                     </ul>
                 </div>
                 <div className="flex flex-col gap-3">
