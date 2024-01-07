@@ -7,11 +7,11 @@ function Realisations({ realisations }) {
 
     return (
         <>
-        <div className="wrapper">
-            <div className='mt-3 flex flex-col gap-20'>
+        <div className="wrapper xl:flex flex-row flex-wrap">
+            <div className='mt-3 flex flex-col gap-20 xl:flex-row flex-wrap justify-center'>
                 {realisations.map((item, id) => (
-                    <div className='flex flex-row flex-wrap' key={id}>
-                        <Link to={`//${item.id}`}>
+                    <div className='flex flex-row flex-wrap xl:basis-[45%]' key={id}>
+                        <Link to={item.site} target='_blank'>
                             <HomeCard background = {item.background} cover={item.cover} title={item.title} type={item.type} />
                         </Link>
                     </div>

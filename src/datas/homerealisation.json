@@ -2,6 +2,7 @@
     {
         "id" : "test1",
         "title": "Kasa",
+        "site": "https://skizxkasa.netlify.app/",
         "type": "Vitrine",
         "background": "pink",
         "cover": "/image/skizxkasa.netlify.app_.png"
@@ -9,6 +10,7 @@
     {
         "id" : "test2",
         "title": "Steph Style Coiffure",
+        "site": "https://stephstylecoiffure.fr/",
         "type": "Vitrine",
         "background": "violet",
         "cover": "/image/stephstylecoiffure.fr.png"
@@ -16,6 +18,7 @@
     {
         "id" : "test3",
         "title": "Kinomap",
+        "site": "https://skizxkinomap.netlify.app/",
         "type": "Vitrine, App Sport",
         "background": "yellow",
         "cover": "/image/localhost_4200_.png"
@@ -23,6 +26,7 @@
     {
         "id" : "test4",
         "title": "Booki",
+        "site": "https://skizxbooki.netlify.app/",
         "type": "Vitrine, Réservation en ligne",
         "background": "lightblue",
         "cover": "/image/skizxbooki.netlify.app_.png"
@@ -30,6 +34,7 @@
     {
         "id" : "test5",
         "title": "La panthère",
+        "site": "https://skizxpanthere.netlify.app/",
         "type": "Vitrine",
         "background": "lightgray",
         "cover": "/image/skizxpanthere.netlify.app_.png"
@@ -37,6 +42,7 @@
     {
         "id" : "test6",
         "title": "Ohmyfood",
+        "site": "https://skizxohmyfood.netlify.app/",
         "type": "Vitrine, Réservation en ligne",
         "background": "blueviolet",
         "cover": "/image/skizxohmyfood.netlify.app_pages_la-palette-du-gout.png"

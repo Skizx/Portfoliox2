@@ -15,12 +15,12 @@ function Home() {
         </header>
         <main>
         <MainTitle />
-        <div className="wrapper pb-8 2xl:text-lg 2xl:pb-12">
+        <div className="wrapper pb-8 xl:text-lg xl:pb-12 xl:mt-12">
             <p className="text-center">Je suis un développeur passionée par la création de site dynamique, moderne, accéssible basé sur l'éxpérience de l'utilisateur.</p>
         </div>
         <Realisations realisations={homeRealisation} />
         <SecondTitle />
-        <div className="wrapper pb-8 2xl:text-lg 2xl:pb-12">
+        <div className="wrapper pb-8 xl:text-lg xl:pb-12 xl:mt-12">
             <p className="text-center">Je travail sur le developpement de divers projets, sites web, applications et l'apprentissage de nouveauté.</p>
         </div>
         <Realisations realisations={inProgressRealisation} />

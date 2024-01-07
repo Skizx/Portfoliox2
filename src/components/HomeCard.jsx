@@ -9,7 +9,7 @@ function HomeCard({title, cover, background, type}) {
                 <h2 className="tracking-wider">{title}</h2>
                 <p className="agbalumo text-[22px]">{type}</p>
             </div>
-            <img className="h-full object-fill rounded-tl-3xl ml-5 mt-10" src={cover} alt={title} />
+            <img className="h-full object-fill rounded-tl-3xl transition ease-in-out delay-400 ml-5 mt-10 hover:scale-110 hover:duration-400" src={cover} alt={title} />
         </figure>
         </>
     )

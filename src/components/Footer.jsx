@@ -72,6 +72,7 @@ function Footer() {
     </div>
   )}
         </ThemeContext.Consumer>
+        <p className="text-center">© 2024 Kévin Civiletti</p>
         </footer>
         </>
     )
