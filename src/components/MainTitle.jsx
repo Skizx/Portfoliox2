@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import AnimatedText from "react-animated-text-content"
 
-function MainTitle() {
+function MainTitle({ title, secondTitle}) {
 
     return (
         <>
@@ -17,7 +17,7 @@ function MainTitle() {
                     ease: 'ease',
                         }}
                       >
-                       Hi. I'm Kévin
+                       {title}
                     </AnimatedText>
                 </span>
                 <span>
@@ -30,7 +30,7 @@ function MainTitle() {
                     ease: 'ease',
                         }}
                       >
-                       A Developer.
+                       {secondTitle}
                     </AnimatedText>
                 </span>
             </h1>

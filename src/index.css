@@ -97,6 +97,8 @@ Link {
     }
     @media screen and (min-width:1440px) {
         width: 1370px;
+        padding-left: 58px;
+        padding-right: 58px;
     }
 }
 

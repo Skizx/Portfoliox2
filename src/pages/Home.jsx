@@ -8,13 +8,16 @@ import inProgressRealisation from '../datas/inprogressrealisation.json';
 
 function Home() {
 
+    const title = "Hi, I'm kévin";
+    const secondTitle = "A Developer.";
+
     return (
         <>
         <header className="fixed w-full px-6 z-50">
         <Navbar />
         </header>
         <main>
-        <MainTitle />
+        <MainTitle title={title} secondTitle={secondTitle} />
         <div className="wrapper pb-8 xl:text-lg xl:pb-12 xl:mt-12">
             <p className="text-center">Je suis un développeur passionée par la création de site dynamique, moderne, accéssible basé sur l'éxpérience de l'utilisateur.</p>
         </div>
