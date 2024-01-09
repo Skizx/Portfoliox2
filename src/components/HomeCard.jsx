@@ -5,7 +5,7 @@ function HomeCard({title, cover, background, type}) {
     return (
         <>
         <figure className="border-transparent rounded-[30px] overflow-hidden h-full flex flex-col" style={{ backgroundColor : background}}>
-            <div className="flex items-end flex-col pr-5 pt-5 text-black">
+            <div className="flex items-end flex-col pr-5 pt-5">
                 <h2 className="tracking-wider">{title}</h2>
                 <p className="agbalumo text-[22px]">{type}</p>
             </div>

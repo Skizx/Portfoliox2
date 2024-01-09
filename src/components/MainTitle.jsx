@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 /* eslint-disable react/no-unescaped-entities */
 import AnimatedText from "react-animated-text-content"
 
@@ -5,7 +6,7 @@ function MainTitle({ title, secondTitle}) {
 
     return (
         <>
-        <div className="wrapper pt-24 bold tracking-[-0.05em] text-[48px] leading-snug flex items-center justify-center agbalumo xl:pt-40">
+        <div className="wrapper pt-24 bold relative tracking-[-0.05em] text-[48px] leading-snug flex items-center justify-center agbalumo xl:pt-40">
             <h1 className=" pb-8 lg:text-7xl 2xl:text-9xl 2xl:pb-12">
                 <span className="">
                     <AnimatedText
