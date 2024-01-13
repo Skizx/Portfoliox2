@@ -10,7 +10,7 @@ function Footer() {
 
     return (
         <>
-        <footer className=" mt-32">
+        <footer className="relative mt-32">
             <div className="flex wrapper justify-around pb-20">
                 <div className="flex flex-col gap-3">
                     <h4 className="agbalumo">Autres</h4>
